@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build imaMela
-      run: docker build . --file Dockerfile --tag imaMela:$(date +%s)
+    - name: Build imamela
+      run: docker build . --file Dockerfile --tag imamela:$(date +%s)
